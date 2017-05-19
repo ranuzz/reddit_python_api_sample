@@ -19,8 +19,8 @@ import logging
 logging.basicConfig(filename='example.log',level=logging.DEBUG)
 
 def getToken():
-    client_auth = requests.auth.HTTPBasicAuth('7OjMGN0wjNfnug',
-                                          'DFYIF7wmxc-9_FYKXg-VOp3_LLY')
+    client_auth = requests.auth.HTTPBasicAuth('CID',
+                                          'SECRET')
     headers = {"User-Agent": "TestinAPI/0.2 by redboatflag"}
            
     post_data = {"grant_type": "password",
@@ -97,7 +97,7 @@ def listSubreddit(token, subreddit, method):
                             headers=headers)
     return response.json()
 
-token = "RJRTMiL7qMLoUdvXe3f-TEdlU60"
+token = "TOKEN"
 
 respData = None
 timeStamp = int(time.time())
