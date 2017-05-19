@@ -11,8 +11,8 @@ import time
 import logging
 
 """Authenticate and get token"""
-""" client ID : 7OjMGN0wjNfnug"""
-""" secret : DFYIF7wmxc-9_FYKXg-VOp3_LLY """
+""" client ID : ** """
+""" secret : ** """
 """ app name : testredboat """
 """ redboatflag  : 9********* """
 
